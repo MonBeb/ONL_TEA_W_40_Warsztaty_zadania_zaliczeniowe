@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class ShopProceedToCheckPage {
     private final WebDriver driver;
 
-    @FindBy(xpath = "//body/div[@id='blockcart-modal']/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/a[1]")
+    @FindBy(xpath = "//body/div[@id='blockcart-modal']/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/a[1]/i[1]")
     private WebElement proceedToCheckOutBtn;
 
     @FindBy(xpath = "//a[contains(text(),'Proceed to checkout')]")
